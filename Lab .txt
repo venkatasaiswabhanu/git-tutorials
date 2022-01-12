@@ -48,3 +48,5 @@ CONFIGURING GIT
     Finally it will open Note Pad Text editor to edit the things    
 
 Everything is done
+
+Remove Everything is done and add GIT HUB Tutorials too..
