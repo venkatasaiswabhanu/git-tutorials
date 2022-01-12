@@ -1,1 +1,49 @@
-dcisco0A@5w55y
+CONFIGURING GIT
+
+    git config --global user.name "Username"
+    git config --global user.email "mail id"
+    git config --global color.ui "auto"
+    If you want to set up note pad as your text editor
+    $ git commit --global core.editor "'<path>'"
+    $ git commit --global core.editor "'<C:\Program Files\Notepad++\notepad++.exe\'"
+     //Press enter
+     ("You can use any text editor)
+
+
+     CREATING A DIRECTORY
+
+     If you want create a directory and edit the content . the commands follows here
+    $ mkdir <directory name>
+    $ mkdir Project1
+
+    After creating  directory we have to change to working directory using command $ cd      // if  you want to exit from directory enter $ cd  ..
+    $ cd Project1  //check git status to check whether to add and commit the directoryor file
+
+    To create a file in existing directory
+    $ touch index.html
+
+    check git status using command
+     $ git status
+
+    if you got Untracked file you need to move file to staging area which can be done using command
+     $ git add .
+    So that new file will be added
+
+    Next step is to commit the changes which can be done using commands
+    $ git commit -m "initial version"
+    then you will get output  as 1 file changed
+
+    finally check
+    $git status  (to know whether it is moved to staging area)
+    if you get output  "nothing to commit, working tree clean" you are perfect
+
+    if you want to update html file
+    echo "<html> </html> >> index.html
+    you will get output as "Changes not made for commit"
+
+    use
+    $git add .
+    to stage this file and then check "$ git status" (if you got changes to be commited then commit changes using command $ git commit)
+
+    Finally it will open Note Pad Text editor to edit the things    
+
