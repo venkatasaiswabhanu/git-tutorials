@@ -47,3 +47,4 @@ CONFIGURING GIT
 
     Finally it will open Note Pad Text editor to edit the things    
 
+Everything is done
