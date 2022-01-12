@@ -49,4 +49,4 @@ CONFIGURING GIT
 
 Everything is done
 
-Remove Everything is done and add GIT HUB Tutorials too..
+Remove Everything is done and add GIT HUB Tutorials in HTTP Repo File too..
